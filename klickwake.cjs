@@ -3,7 +3,7 @@ const readline = require('readline');
 const chrono = require('chrono-node');
 const { execSync } = require('child_process');
 
-// The alarm sound is defined here, by default this is opened with cvlc
+// The alarm sound is defined here
 const alarmSound = '/home/klick3r/alarm.mp3';
 //  Set the mode for rtcwake
 const sleepMode = 'mem';
