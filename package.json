@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "bin": {
+    "klickWake": "klickwake.cjs"
+  },
+  "dependencies": {
+    "chrono-node": "^2.7.5"
+  },
+  "name": "klickwake",
+  "version": "1.0.0",
+  "main": "klickwake.cjs",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Klick3R",
+  "license": "GNU GPLv3",
+  "description": "Klickwake is a nodejs script that uses rtcwake to wake the computer from hibernation, then runs a command on wakeup, the default option is cvlc playing an alarm. The options can be easily edited to fit whatever needs, for example waking up to do a backup then go back to sleep."
+}
