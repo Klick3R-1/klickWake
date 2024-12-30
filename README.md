@@ -30,12 +30,17 @@ cd klickwake
 npm install
 ```
 
-3. Make the script executable:
+3. Install required Node.js packages:
+```bash
+npm install chrono-node readline
+```
+
+4. Make the script executable:
 ```bash
 chmod +x klickwake.cjs
 ```
 
-4. (Optional) Create a symbolic link to run from anywhere:
+5. (Optional) Create a symbolic link to run from anywhere:
 ```bash
 sudo ln -s $(pwd)/klickwake.cjs /usr/local/bin/klickwake
 ```
